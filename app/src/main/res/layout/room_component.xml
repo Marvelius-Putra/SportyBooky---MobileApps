@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/bandung"
+        android:layout_width="350dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@drawable/option" />
+
+    <TextView
+        android:id="@+id/roomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Hayuu join ajaa"
+        android:textColor="#FCB300"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bandung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="@+id/bandung"
+        app:layout_constraintTop_toTopOf="@+id/bandung"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/roomType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Badminton"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bandung"
+        app:layout_constraintEnd_toEndOf="@+id/bandung"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/bandung"
+        app:layout_constraintTop_toTopOf="@+id/bandung"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <TextView
+        android:id="@+id/roomCurrent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/acme"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/roomLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Daerah Bandung"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bandung"
+        app:layout_constraintEnd_toEndOf="@+id/bandung"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="@+id/bandung"
+        app:layout_constraintTop_toTopOf="@+id/bandung"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/teamwork" />
+
+    <Button
+        android:id="@+id/go_joinChat"
+        android:layout_width="58dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#FCB300"
+        android:fontFamily="@font/poppins_bold"
+        android:includeFontPadding="false"
+        android:paddingLeft="13dp"
+        android:paddingTop="3dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="3dp"
+        android:text="Join"
+        android:textSize="10sp"
+        android:theme="@style/reduce"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bandung"
+        app:layout_constraintEnd_toEndOf="@+id/bandung"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="@+id/bandung"
+        app:layout_constraintTop_toTopOf="@+id/bandung"
+        app:layout_constraintVertical_bias="0.847"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

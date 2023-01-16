@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/drawable/ic_add.xml" value="0.2035" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2035" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1805" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_booking.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_calender.xml" value="0.25416666666666665" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_checkout.xml" value="0.25416666666666665" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_field.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_register.xml" value="0.11302083333333333" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_room.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_room_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_room_chat.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_sport.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/activity_status.xml" value="0.25416666666666665" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/field_component.xml" value="0.264" />
+        <entry key="..\:/My Files/Binus/OneDrive - Bina Nusantara/Mata Kuliah/Semester 3/Java OOP/ProjectOOP/SportyBooky/app/src/main/res/layout/room_component.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

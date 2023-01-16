@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="rounded" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+<!--        <item name="cornerSize">20dp</item>-->
+<!--        <item name="color">@color/white</item>-->
+<!--    </style>-->
+
+    <style name="join" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="reduce" parent="">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="rounded" parent="">
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+
+        <item name="color">#090808</item>
+    </style>
+    <style name="rounded_b">
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+    </style>
+    <style name="rounded_a" parent="">
+
+        <item name="cornerSizeTopLeft">20dp</item>
+
+        <item name="color">#090808</item>
+    </style>
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/red</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:weekNumberColor">@color/red</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="focusedMonth" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+</resources>

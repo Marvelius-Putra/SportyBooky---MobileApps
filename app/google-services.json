@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234561671697",
+    "firebase_url": "https://sportybooky-default-rtdb.firebaseio.com",
+    "project_id": "sportybooky",
+    "storage_bucket": "sportybooky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234561671697:android:a6a966e19b296e111757b0",
+        "android_client_info": {
+          "package_name": "com.example.sportybooky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234561671697-mqr7ph83u1ia753jfk4adge77ik1jugn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5c5SzjhUgdej9D0-qVONua8nngPb9cRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234561671697-mqr7ph83u1ia753jfk4adge77ik1jugn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

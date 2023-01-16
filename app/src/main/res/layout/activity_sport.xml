@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SportActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-15dp" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_menu"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/profile_icn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/go_bola"
+        android:layout_width="312dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        app:srcCompat="@drawable/box" />
+
+    <ImageButton
+        android:id="@+id/bola_button"
+        android:layout_width="245dp"
+        android:layout_height="105dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        app:srcCompat="@drawable/pills"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/bola1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="Bola/Futsal"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/go_bola"
+        app:layout_constraintEnd_toEndOf="@+id/go_bola"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/bola_button"
+        app:layout_constraintTop_toTopOf="@+id/go_bola"
+        app:layout_constraintVertical_bias="0.537" />
+
+
+    <ImageView
+        android:id="@+id/go_badminton"
+        android:layout_width="312dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195"
+        app:srcCompat="@drawable/box" />
+
+    <ImageButton
+        android:id="@+id/badminton_button"
+        android:layout_width="245dp"
+        android:layout_height="105dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/pills"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/badminton_pict"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="@+id/badminton_button"
+        app:layout_constraintEnd_toEndOf="@+id/badminton_button"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/badminton_button"
+        app:layout_constraintTop_toTopOf="@+id/badminton_button"
+        app:layout_constraintVertical_bias="0.56"
+        app:srcCompat="@drawable/badminton_logo" />
+
+    <ImageView
+        android:id="@+id/bola_pict"
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bola_button"
+        app:layout_constraintEnd_toEndOf="@+id/bola_button"
+        app:layout_constraintStart_toStartOf="@+id/bola_button"
+        app:layout_constraintTop_toTopOf="@+id/bola_button"
+        app:layout_constraintVertical_bias="0.529"
+        app:srcCompat="@drawable/bola" />
+
+    <TextView
+        android:id="@+id/b_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="Badminton"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/go_badminton"
+        app:layout_constraintEnd_toEndOf="@+id/go_badminton"
+        app:layout_constraintStart_toEndOf="@+id/badminton_button"
+        app:layout_constraintTop_toTopOf="@+id/go_badminton" />
+
+    <ImageView
+        android:id="@+id/go_tennis"
+        android:layout_width="309dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@drawable/box" />
+
+    <ImageButton
+        android:id="@+id/tennis_button"
+        android:layout_width="245dp"
+        android:layout_height="105dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597"
+        app:srcCompat="@drawable/pills"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/tennis_pict"
+        android:layout_width="88dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tennis_button"
+        app:layout_constraintEnd_toEndOf="@+id/tennis_button"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/tennis_button"
+        app:layout_constraintTop_toTopOf="@+id/tennis_button"
+        app:srcCompat="@drawable/tennis" />
+
+    <TextView
+        android:id="@+id/t_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="Tennis"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/go_tennis"
+        app:layout_constraintEnd_toEndOf="@+id/go_tennis"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toEndOf="@+id/tennis_button"
+        app:layout_constraintTop_toTopOf="@+id/go_tennis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

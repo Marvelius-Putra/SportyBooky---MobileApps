@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomAddActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FCFCFC"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-15dp" />
+
+    <EditText
+        android:id="@+id/roomName_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/input_5"
+        android:textColor="#19204E"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        android:background="@drawable/inputt" />
+
+    <EditText
+        android:id="@+id/roomSport_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#19204E"
+        android:paddingLeft="20dp"
+        android:contentDescription="@string/input_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomName_input"
+        app:layout_constraintVertical_bias="0.055"
+        android:background="@drawable/inputt"/>
+
+
+    <EditText
+        android:id="@+id/roomLocation_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#19204E"
+        android:paddingLeft="20dp"
+        android:contentDescription="@string/input_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomSport_input"
+        app:layout_constraintVertical_bias="0.071"
+        android:background="@drawable/inputt" />
+
+    <EditText
+        android:id="@+id/roomMax_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#19204E"
+        android:paddingLeft="20dp"
+        android:contentDescription="@string/input_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomLocation_input"
+        app:layout_constraintVertical_bias="0.076"
+        android:background="@drawable/inputt" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_sport"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/roomSport_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="@string/participant"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/roomMax_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locations"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/roomLocation_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/room_name"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/roomName_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/drop_down"
+        app:layout_constraintBottom_toBottomOf="@+id/roomSport_input"
+        app:layout_constraintEnd_toEndOf="@+id/roomSport_input"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/roomSport_input"
+        app:layout_constraintTop_toTopOf="@+id/roomSport_input"
+        app:layout_constraintVertical_bias="0.62"
+        app:srcCompat="@drawable/down" />
+
+    <Button
+        android:id="@+id/btn_SaveRoom"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#C61B0E"
+        android:text="@string/make_room"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomMax_input"
+        app:layout_constraintVertical_bias="0.119"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/addBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back_3"
+        app:layout_constraintBottom_toTopOf="@+id/roomName_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        app:srcCompat="@drawable/arrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:id="@+id/recCard">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/fieldImage"
+            android:layout_width="332dp"
+            android:layout_height="107dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lapangan"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearanceOverlay="@style/rounded" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="333dp"
+            android:layout_height="92dp"
+            android:background="@color/white"
+            android:contentDescription="@string/foote_4"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/input" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="18dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/star_10"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.031"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/fieldAddress"
+            app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+        <TextView
+            android:id="@+id/fieldRating"
+            android:layout_width="18dp"
+            android:layout_height="22dp"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:text="5"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/fieldAddress"
+            app:srcCompat="@drawable/ic_baseline_star_rate_24" />
+
+        <TextView
+            android:id="@+id/fieldTitle"
+            android:layout_width="149dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/acme"
+            android:text="Lapangan Futsal Purnama"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/fieldAddress"
+            android:layout_width="140dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:text="suzy queue 4455 louisville 3"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/fieldTitle"
+            app:layout_constraintVertical_bias="0.435" />
+
+        <Button
+            android:id="@+id/go_book"
+            android:layout_width="62dp"
+            android:layout_height="32dp"
+            android:text="join"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintStart_toEndOf="@+id/fieldTitle"
+            app:layout_constraintTop_toBottomOf="@+id/fieldImage"
+            app:layout_constraintVertical_bias="0.854"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/fieldPrice"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:text="65rb/jam"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/go_book"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toEndOf="@+id/fieldTitle"
+            app:layout_constraintTop_toBottomOf="@+id/fieldImage"
+            app:layout_constraintVertical_bias="0.32999998" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
